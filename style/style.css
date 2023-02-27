@@ -1,0 +1,306 @@
+/* header section start */
+header {
+    display: flex;
+    align-items: center;
+    width: 1108px;
+    height: 40px;
+    padding-top: 48px;
+    padding-left: 100px;
+}
+
+header h1 {
+    color: #34313D;
+    width: 120px;
+    height: 34px;
+}
+
+a {
+    list-style: none;
+    margin-right: 29px;
+    color: #9E9AA8;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 15px;
+    text-decoration: none;
+    
+
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    display: flex;
+    margin-left: 45px;
+    align-items: center;
+
+}
+
+.nav-right {
+    display: flex;
+    margin-left: 493px;
+    align-items: center;
+
+}
+
+.nav-right a {
+    margin-right: 37px;
+    text-decoration: none;
+    color: #9E9AA8;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 15px;
+    
+}
+
+.nav-right button {
+    width: 105px;
+    height: 40px;
+    border-radius: 28px;
+    background-color: #2BD0D0;
+    color: white;
+    border: 0;
+}
+
+/* header section end */
+
+/* Main section start */
+
+/* Links section start */
+#links h1{
+    margin-top: 100px;
+    padding-left: 100px;
+    line-height: 50px;
+    letter-spacing: -2px;
+    font-size:50px;
+    font-weight: 700;
+    Width: 440px;
+    Height:180px;
+    font-style: normal;
+    color: #34313D;
+  
+}
+
+#links p{
+    margin-top:-70px;
+    padding-left: 100px;
+    font-size:22px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0.15px;
+    color: #9E9AA8;
+    font-style: normal;
+    height: 72px;
+    width: 532px;
+   
+}
+
+
+#links img{
+    display: inline-block;
+    width:368px;
+    height:270px;
+    margin-top: -320px;
+    margin-left:597px;
+
+}
+
+#links button{
+    border-radius: 28px;
+    background-color: #2BD0D0;
+    color: white;
+    width: 197px;
+    height: 56px;
+   margin-left: 100px;
+    margin-top: 30px;
+    border: 0;
+}
+
+.link-area{
+   background-image:url(../image/Path2.png);
+    width: 800px;
+    height: 110px;
+   margin-left: 90px;
+   text-align: center;
+   border-radius: 10px;
+
+   
+}
+
+.link-area input{
+    width: 466px;
+    height: 36px;
+    padding-left: 50px 10px;
+    margin-right: -70px;
+}
+
+.link-area button{
+    width: 50px;
+    height: 15px;
+    border-radius: 5px;
+    background-color: #2BD0D0;
+    color: white;
+    margin-left: 15px;
+}
+   
+/* Links section end */
+
+/* Statistics section start */
+
+#statistics h2{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: -1px;
+    text-align: center;
+    color: #34313D;
+    margin-top: 50px;
+}
+
+#statistics p{
+    font-size: 18px;
+    font-weight: 500;
+    text-align:justify;
+    letter-spacing: 0.122727px;
+    line-height: 30px;
+    color: #9E9AA8;
+    width: 720px;
+    height: 64px;
+    padding-left: 285px;
+    margin-top: 18px;
+
+}
+
+.card1{
+    width: 250px;
+    height:120px;
+    padding-left: 100px;
+    border-radius: 5px;
+    margin-top: 56px;
+    text-align: justify;
+    border: 1px;
+    display: inline-block;
+    background-color: white;
+
+}
+
+.card1 img{
+    position:sticky;
+    width: 88px;
+    height: 88px;
+}
+
+.card1 h3{
+    padding: 15px 0px;
+    font-weight: 700;
+    line-height: 15px;
+    font-size: 18px;
+    color: #34313D;
+
+
+}
+
+.card1 p{
+    margin-top: 2px;
+    padding:5px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 10px;
+    color: #9E9AA8;
+    display: inline;
+    width: 250px;
+    height: 120px;
+   
+}
+
+#cards{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    padding-top: 40px;
+}
+
+#statistics{
+background-color: #F5F5F5;
+}
+/* Statistics section end */
+
+/* Main section end  */
+
+
+/* Footer section start */
+
+.footer-top{
+    background-image: url(../image/Path2.png);
+    height: 150px;
+    text-align: center;
+    padding: 45px 300px;
+}
+
+.footer-top button{
+    width: 105px;
+    height: 40px;
+    border-radius: 28px;
+    background-color: #2BD0D0;
+    color: white;
+    border: 0;
+
+}
+
+.footer-top h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: -1px;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
+.footer-bottom{
+    background-color: #1d1c1e;
+    height: 290px;
+    display: flex;
+}
+
+.footer-bottom .logo-white h2{
+color: white;
+width: 120px;
+height: 50px;
+padding-left:130px;
+padding-top: 60px;
+text-align: center;
+display: inline-block;
+
+}
+
+.footer{
+    display: inline-block;
+    color: white;
+    padding-top: 60px;
+    margin-left: 105px;
+   
+}
+
+
+.footer ul{
+    display: inline-block;
+    margin-left: 35px;
+    margin-right: 15px;
+    
+}
+
+.icons img{
+    width: 24px;
+    height: 24px;
+    padding-top: 60px;
+    display: inline-block;
+   
+   
+}
+
+.footer h4{
+    display: inline-block;
+    margin-left: 35px;
+    margin-right: 15px;
+}
